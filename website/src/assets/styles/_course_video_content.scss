@@ -1,0 +1,45 @@
+.course_video_content {
+  border: 1px solid #757575;
+  border-radius: 8px;
+  .lesson_sections {
+    border-bottom: 1px solid #757575;
+    border-top: 1px solid #757575;
+    .lesson_section {
+      background: #fafafa;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      .section_item_title {
+        display: flex;
+        align-items: center;
+        p {
+          margin: 0 20px;
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .lesson_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    .lesson_item_title {
+      display: flex;
+      align-items: center;
+      p {
+        margin: 0 20px;
+      }
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+  }
+}
